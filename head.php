@@ -6,5 +6,6 @@
     <link rel="stylesheet" type="text/css" href="styles/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="styles/index.css">
     <link rel="stylesheet" type="text/css" href="styles/login-form.css">
+    <link rel="stylesheet" type="text/css" href="styles/footer.css">
     <script src="scripts/login-form.js"></script>
 </head>

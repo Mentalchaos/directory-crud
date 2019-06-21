@@ -2,10 +2,9 @@
 <html lang="en">
 <?php include 'head.php' ?>
 <body>
-    <div> 
-        <?php echo 'something is missing here' ?> 
+    <div class="page-container"> 
+        <?php include 'login-form.php' ?> 
     </div>
     <?php include 'footer.php' ?>
-    
 </body>
 </html>

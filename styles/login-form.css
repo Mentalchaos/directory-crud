@@ -1,0 +1,28 @@
+.form-container {
+    background-color: rgba(106, 59, 89, 0.9);
+    color: white;
+    display: block;
+    text-align: center;
+    width: 480px;
+    height: 290px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.login-button {
+    background-color: #050505;
+    border-color: #050505;
+    width: 100%;
+}
+
+.login-button:hover {
+    border-color: #050505;
+    background-color: #050505;
+    box-shadow: 0px 0px 5px 1px white;
+}
+
+#exampleInputEmail1:focus,
+#exampleInputPassword1:focus {
+    box-shadow: 0px 0px 6px 1px #ffffff;
+    border-color: darkblue;
+}

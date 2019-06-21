@@ -7,5 +7,7 @@
     <link rel="stylesheet" type="text/css" href="styles/index.css">
     <link rel="stylesheet" type="text/css" href="styles/login-form.css">
     <link rel="stylesheet" type="text/css" href="styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/icomoon/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/user-create-form.css">
     <script src="scripts/login-form.js"></script>
 </head>

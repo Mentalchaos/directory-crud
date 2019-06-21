@@ -1,8 +1,12 @@
+*{
+    margin: 0%;
+}
+
 .footer-container{
     background-color:#26272b;
-    padding:30px 0 20px;
-    font-size:15px;
-    line-height:24px;
+    padding:1% 0 0;
+    font-size:1rem;
+    height:auto;
     color:#737373;
     display: flex;
 }
@@ -25,6 +29,7 @@
 .about-us{
     height: 100%;
     width: 25%;
+    text-align: center;
 }
     .about-us-title{
         height: 30%;
@@ -40,3 +45,57 @@
         color:#737373;
 
     }
+
+.colaboradores-container{
+    height: 100%;
+    width: 25%;
+}
+
+    .colaboradores-title{
+        height: 30%;
+        color: white;
+        text-align: center;
+        margin:0;
+
+    }
+    .link-container{
+        height: 70%;
+        padding: 15px;
+        text-align: center;
+        display: grid;
+        
+    
+    }
+        .link-web-page{
+            color:#737373;
+            width:100%;
+            text-decoration: none;
+        }
+            .link-web-page:hover{
+                color:rgba(106, 59, 89, 1);
+                text-decoration:none;
+            }
+.follow-us-container{
+    height: 100%;
+    width: 25%;
+}
+    .follow-us-text{
+        height: 30%;
+        color: white;
+        text-align: center;
+        margin:0;
+    }
+    .social-container{
+        text-align: center;
+        padding: 15%;
+    }
+        .icon-config{
+            font-size:1.8em;
+            padding: 1%;
+            color:#737373;
+        }
+            .icon-config:hover,.icon-config:active{
+                /* color:rgba(255, 255, 255, 0.8); */
+                color:rgba(106, 59, 89, 0.9);
+                text-decoration: none;
+            }

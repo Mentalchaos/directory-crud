@@ -1,137 +1,36 @@
-<div>
-    <!-- Footer -->
-<footer class="page-footer font-small mdb-color pt-4">
-
-<!-- Footer Links -->
-<div class="container text-center text-md-left">
-
-  <!-- Footer links -->
-  <div class="row text-center text-md-left mt-3 pb-3">
-
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
-      <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-        consectetur
-        adipisicing elit.</p>
-    </div>
-    <!-- Grid column -->
-
-    <hr class="w-100 clearfix d-md-none">
-
-    <!-- Grid column -->
-    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-      <p>
-        <a href="#!">MDBootstrap</a>
-      </p>
-      <p>
-        <a href="#!">MDWordPress</a>
-      </p>
-      <p>
-        <a href="#!">BrandFlow</a>
-      </p>
-      <p>
-        <a href="#!">Bootstrap Angular</a>
-      </p>
-    </div>
-    <!-- Grid column -->
-
-    <hr class="w-100 clearfix d-md-none">
-
-    <!-- Grid column -->
-    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-      <p>
-        <a href="#!">Your Account</a>
-      </p>
-      <p>
-        <a href="#!">Become an Affiliate</a>
-      </p>
-      <p>
-        <a href="#!">Shipping Rates</a>
-      </p>
-      <p>
-        <a href="#!">Help</a>
-      </p>
-    </div>
-
-    <!-- Grid column -->
-    <hr class="w-100 clearfix d-md-none">
-
-    <!-- Grid column -->
-    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-      <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-      <p>
-        <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-      <p>
-        <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-      <p>
-        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-      <p>
-        <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-    </div>
-    <!-- Grid column -->
-
+<div class="footer-container">
+  <!--logo de la empresa-->
+  <div class="directory-container">
+    <img class="directory-img" src="imgs/logo.png">
+    <p class="directory-info" >Directory SPA transforma los datos en información valiosa para la gestión y toma de decisiones de las distintas áreas de su empresa.</p>
   </div>
-  <!-- Footer links -->
-
-  <hr>
-
-  <!-- Grid row -->
-  <div class="row d-flex align-items-center">
-
-    <!-- Grid column -->
-    <div class="col-md-7 col-lg-8">
-
-      <!--Copyright-->
-      <p class="text-center text-md-left">© 2018 Copyright:
-        <a href="https://mdbootstrap.com/education/bootstrap/">
-          <strong> MDBootstrap.com</strong>
-        </a>
-      </p>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-md-5 col-lg-4 ml-lg-0">
-
-      <!-- Social buttons -->
-      <div class="text-center text-md-right">
-        <ul class="list-unstyled list-inline">
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fab fa-google-plus-g"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="btn-floating btn-sm rgba-white-slight mx-1">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-        </ul>
+  <!--direccion de la empresa -->
+  <div class="about-us">
+    <h5 class="about-us-title">Dirección</h5>
+    <p  class="about-us-info"><span class="icon-location-pin"></span> Dr manuel barros borgoño 199, Providencia</p>
+  </div>
+  <div class="colaboradores-container">
+    <h5 class="colaboradores-title">Colaboradores</h5>
+      <div class="link-container">
+        <a class="link-web-page" href="#">https//:www.inacap.cl</a>
+        <a class="link-web-page" href="#">https//:www.devschile.cl</a>
+        <a class="link-web-page" href="#">https//:www.microsoft.com</a>
+        <a class="link-web-page" href="#">https//:www.platzi.com</a>
+        <a class="link-web-page" href="#">https//:www.udemy.com</a>
       </div>
-
     </div>
-    <!-- Grid column -->
+    <div class="follow-us-container">
+      <h5 class="follow-us-text">Social</h5>
+      <div class="social-container">
+        <a href="#" class="icon-config icon-youtube"></a>
+        <a href="#" class="icon-config icon-twitter-with-circle"></a>
+        <a href="#" class="icon-config icon-google-with-circle"></a>
+        <a href="#" class="icon-config icon-linkedin-with-circle"></a>
+        <a href="#" class="icon-config icon-instagram-with-circle"></a>
+        <a href="#" class="icon-config icon-github-with-circle"></a>
 
-  </div>
-  <!-- Grid row -->
+      </div>
+    </div>
 
-</div>
-<!-- Footer Links -->
-
-</footer>
-<!-- Footer -->
+    
 </div>

@@ -11,7 +11,7 @@
             </div>
             <div class="form-group">
                 <label >Correo</label>
-                <input class="form-control" id="input-email"type="text" placeholder="Directory@example.cl">
+                <input class="form-control" id="input-email"type="text" placeholder="Directory@ejemplo.cl">
             </div>
             <div class="form-group">    
                 <label >Pais</label>

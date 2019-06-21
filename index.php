@@ -6,6 +6,5 @@
     <?php include 'login-form.php' ?> 
 </div>
 <?php include 'footer.php' ?>
-<?php include 'user-create-form.php'?>
 </body>
 </html>

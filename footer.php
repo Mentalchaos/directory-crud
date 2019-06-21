@@ -7,16 +7,16 @@
   <!--direccion de la empresa -->
   <div class="about-us">
     <h5 class="about-us-title">Dirección</h5>
-    <p  class="about-us-info"><span class="icon-config icon-location-pin"></span>Dr manuel barros borgoño 199, Providencia</p>
+    <p  class="about-us-info"><span class="icon-location-pin"></span> Dr manuel barros borgoño 199, Providencia</p>
   </div>
   <div class="colaboradores-container">
     <h5 class="colaboradores-title">Colaboradores</h5>
       <div class="link-container">
-        <a class="link-web-page" href="#">www.inacap.cl</a>
-        <a class="link-web-page" href="#">www.devschile.cl</a>
-        <a class="link-web-page" href="#">www.microsoft.com</a>
-        <a class="link-web-page" href="#">www.platzi.com</a>
-        <a class="link-web-page" href="#">www.udemy.com</a>
+        <a class="link-web-page" href="#">https//:www.inacap.cl</a>
+        <a class="link-web-page" href="#">https//:www.devschile.cl</a>
+        <a class="link-web-page" href="#">https//:www.microsoft.com</a>
+        <a class="link-web-page" href="#">https//:www.platzi.com</a>
+        <a class="link-web-page" href="#">https//:www.udemy.com</a>
       </div>
     </div>
     <div class="follow-us-container">

@@ -5,12 +5,15 @@
        $name = $_POST['product-name'];
        $description = $_POST['description'];
        $price =  $_POST['price'];
+       $quantity = $_POST['quantity'];
+       $subtotal = $quantity * $price;
+
     //    echo $name;
     //    echo $description;
     //    echo $price;
         //insertar datos en al tabla 
-        $query = "INSERT INTO directory(nombre, descripción, precio) 
-                  VALUES ('$name', '$description', '$price')"; 
+        $query = "INSERT INTO producto(nombre,descripcion,precio,cantidad,subtotal) 
+                  VALUES ('$name','$description','$price','$quantity','$subtotal')"; 
 
         //revisar la consulta "conexion" , "query"
         $result = mysqli_query($conexion, $query);

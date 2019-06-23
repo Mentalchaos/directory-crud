@@ -11,5 +11,7 @@
         <div class="form-check">
         </div>
         <button type="submit" class="btn btn-primary login-button">Iniciar Sesión</button>
+        <label for="">¿aún no te has registrado?</label>
+        <a href="user-create-form.php">crear cuenta</a>
     </form>
 </div>

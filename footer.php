@@ -12,11 +12,11 @@
   <div class="colaboradores-container">
     <h5 class="colaboradores-title">Colaboradores</h5>
       <div class="link-container">
-        <a class="link-web-page" href="#">https//:www.inacap.cl</a>
+        <a class="link-web-page" href="#">https//:www.riotgames.cl</a>
         <a class="link-web-page" href="#">https//:www.devschile.cl</a>
         <a class="link-web-page" href="#">https//:www.microsoft.com</a>
         <a class="link-web-page" href="#">https//:www.platzi.com</a>
-        <a class="link-web-page" href="#">https//:www.udemy.com</a>
+        <a class="link-web-page" href="#">https//:www.blizzard.com</a>
       </div>
     </div>
     <div class="follow-us-container">

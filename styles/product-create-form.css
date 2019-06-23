@@ -1,0 +1,44 @@
+.cuerpo{
+    background: url("../imgs/eva.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.container-product-form{
+
+    background-color: rgba(106, 59, 89, 0.9);
+    color: white;
+    text-align: center;
+    width: 360px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: auto;
+}
+.create-Product-button{
+    background-color: #050505;
+    border-color: #050505;
+    width: 100%;
+    color:white;
+}
+
+    .create-Product-button:hover{
+        border-color: #050505;
+        background-color: #050505;
+        box-shadow: 0px 0px 5px 1px white;
+    }
+.product-text-area{
+    border-radius: 5px;
+}
+.container-all-product{
+    display: flex;
+
+}
+.container-success-alert{
+    width:300px;
+}
+.table-config{
+    background:rgba(106, 59, 89, 0.9);
+}
+th,td{
+    color: white;
+}

@@ -6,6 +6,7 @@
         <div class="container-user-form">
             <div class="create-user-form">
                 <form class="" action ="save-create-user.php" method="POST">
+
                     <div class="form-group">
                         <label >Nombre</label>
                         <input class="form-control" id="input-name" type="name" name="nombre" placeholder=" Ingrese su nombre">
@@ -26,7 +27,7 @@
                         <label >Contraseña</label>
                         <input class="form-control" id="input-password"type="password" name ="contraseña" placeholder=" Ingrese su Contraseña">
                     </div>
-                        <button type="submit" class="btn btn-primary login-button" name="crear-usuario">Crear Usuario</button>
+                        <button type="submit" class="btn btn-primary login-button" name="crear-usuario">Crear Usuario</button>    
                 </form>
             </div>
         </div>

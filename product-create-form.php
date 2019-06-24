@@ -34,7 +34,7 @@
                     <input name= "quantity" class="form-control" id="input-quantity" type="text" placeholder=" Ingrese la cantidad">
                 </div>       
                 <button class="btn btn-primary create-Product-button" value="save-product" name="save-product">Ingresar</button>
-            
+                <a href="conexion-close.php">cerrar sesion</a>
         </form>
     </div> 
         <div class= "col -md-8">
@@ -73,12 +73,19 @@
                         <br>
             <div class="container-product-form" >
                 <label for="">Total</label>
-                <label for=""><?php 
-                    $query ="SELECT sum(subtotal)from producto";
-                    $resultSuma = mysqli_query($conexion,$query);
+                <?php 
+                
+                $query = "SELECT * FROM producto";
+                $result= mysqli_query($conexion, $query);
+                $suma = 0;
+                while($consulta = mysqli_fetch_array($result)){
+                     $suma += $consulta['subtotal'];
+                }
 
-                    
-                ?></label>
+                ?>
+                <label for="">
+                    <?php echo $suma ?>
+                </label>
             </div>
                 
     
